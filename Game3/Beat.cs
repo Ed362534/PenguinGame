@@ -43,7 +43,7 @@ namespace Game3
             if(left && !leftPressed) spriteBatch.Draw(ArrowLeft, new Vector2(50, offset + 25));
             if(right && !rightPressed) spriteBatch.Draw(ArrowRight, new Vector2(150, offset + 25));
             if(up && !upPressed) spriteBatch.Draw(ArrowUp, new Vector2(250, offset));
-            if(down && !downPressed) spriteBatch.Draw(ArrowDown, new Vector2(375, offset));
+            if(down && !downPressed) spriteBatch.Draw(ArrowDown, new Vector2(330, offset));
         }
     }
 }

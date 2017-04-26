@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System.Collections.Generic;
 
 namespace Game3
@@ -16,8 +17,11 @@ namespace Game3
         Texture2D ArrowDown;
         Texture2D ArrowRight;
         Texture2D ArrowLeft;
+        Texture2D Background;
         Level level;
         List<Control> controlList = new List<Control>();
+        Song song;
+
 
         public Game1()
         {
@@ -50,13 +54,18 @@ namespace Game3
             ArrowDown = Content.Load<Texture2D>("DownArrow");
             ArrowLeft = Content.Load<Texture2D>("LeftArrow");
             ArrowRight = Content.Load<Texture2D>("RightArrow");
+            Background = Content.Load<Texture2D>("BACKGROUND");
             level = new Level("TEST.txt", ArrowUp, ArrowDown, ArrowRight, ArrowLeft);
             // ArrowMove = new GameObject (ArrowUp, new Vector2(50, 360));
 
-            controlList.Add(new Control(ArrowLeft, new Vector2(50, 375), Keys.Left));
-            controlList.Add(new Control(ArrowRight, new Vector2(150, 375), Keys.Right));
-            controlList.Add(new Control(ArrowUp, new Vector2(250, 350), Keys.Up));
-            controlList.Add(new Control(ArrowDown, new Vector2(375, 350), Keys.Down));
+            controlList.Add(new Control(ArrowLeft, new Vector2(50, 380), Keys.Left));
+            controlList.Add(new Control(ArrowRight, new Vector2(150, 380), Keys.Right));
+            controlList.Add(new Control(ArrowUp, new Vector2(250, 370), Keys.Up));
+            controlList.Add(new Control(ArrowDown, new Vector2(330, 370), Keys.Down));
+
+            this.song = Content.Load <Song>("Penguin Song");
+            MediaPlayer.Play(song);
+
         }
 
         /// <summary>
@@ -119,10 +128,13 @@ namespace Game3
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
+
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            
-            foreach(Control control in controlList)
+
+            spriteBatch.Draw(Background, new Rectangle(0, 0, 800, 480), Color.White);
+
+            foreach (Control control in controlList)
             {
                 control.Draw(spriteBatch);
             }

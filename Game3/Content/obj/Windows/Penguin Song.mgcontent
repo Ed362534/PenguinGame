@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/Penguin Song.mp3</SourceFile>
+  <SourceTime>2017-04-26T18:09:11.5000232-04:00</SourceTime>
+  <DestFile>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/bin/Windows/Penguin Song.xnb</DestFile>
+  <DestTime>2017-04-26T18:49:17.1983259-04:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/bin/Windows/Penguin Song.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

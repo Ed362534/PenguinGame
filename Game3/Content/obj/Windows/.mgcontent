@@ -4,10 +4,13 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/DownArrow.png</File>
-    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/LeftArrow.png</File>
-    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/RightArrow.png</File>
-    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/UpArrow.png</File>
-    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/PENGUIN.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/DownArrow.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/LeftArrow.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/RightArrow.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/UpArrow.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/PENGUIN.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/Penguin Song.mp3</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/BACKGROUND.png</File>
+    <File>C:/Users/User1/Source/Repos/PenguinGame/Game3/Content/Time.mp3</File>
   </SourceFiles>
 </SourceFileCollection>
