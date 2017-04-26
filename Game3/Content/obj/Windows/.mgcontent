@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/DownArrow.png</File>
+    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/LeftArrow.png</File>
+    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/RightArrow.png</File>
+    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/UpArrow.png</File>
+    <File>C:/Users/User1/Downloads/Game3_revised/Game3/Game3/Content/PENGUIN.png</File>
+  </SourceFiles>
+</SourceFileCollection>
